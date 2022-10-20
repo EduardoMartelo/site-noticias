@@ -6,9 +6,19 @@
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    animation: mymove 75s linear infinite;
     background: #fff url(../imagens/fundo.png) repeat-x;
-    position: relative;
+    /* animation: fundo_anim 170s linear infinite; */
+    z-index: 0;
+}
+
+@keyframes fundo_anim {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -2122px 0;
+    }
 }
 
 #container {
