@@ -7,7 +7,7 @@
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #fff url(../imagens/fundo.png) repeat-x;
-    /* animation: fundo_anim 170s linear infinite; */
+    animation: fundo_anim 170s linear infinite;
     z-index: 0;
 }
 
