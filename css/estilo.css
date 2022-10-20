@@ -7,7 +7,7 @@
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #fff url(../imagens/fundo.png) repeat-x;
-    /* animation: fundo_anim 170s linear infinite; */
+    animation: fundo_anim 170s linear infinite;
     z-index: 0;
 }
 
@@ -30,7 +30,6 @@ body {
     height: 150px;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
-    /* border: 1px solid red; */
 }
 
 .logo {
@@ -62,6 +61,7 @@ ul {
     margin-top: 30px;
     background: #b10333;
     float: left;
+    box-shadow: 0px 4px 6px 2px rgb(0 0 0 / 30%);
 }
 
 #topo ul li {
@@ -84,6 +84,7 @@ ul {
 
 #topo ul a:hover {
     color: #69001d;
+
 }
 
 body.home #navegacao a#home,
