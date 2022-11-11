@@ -6,8 +6,9 @@
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: #fff url(../imagens/fundo.png) repeat-x;
-    animation: fundo_anim 170s linear infinite;
+    background: url(../imagens/fundo.png) repeat-x;
+    animation: fundo_anim 190s linear infinite;
+    animation-direction: reverse;
     z-index: 0;
 }
 
@@ -27,6 +28,7 @@ body {
 }
 
 #topo {
+    padding-left: 7%;
     height: 150px;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
@@ -182,7 +184,7 @@ h3 {
 }
 
 .entrevista h3 {
-    background: #de003e;
+    background: #b10333;
     color: #fff;
 }
 
